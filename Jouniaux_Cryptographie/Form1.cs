@@ -16,5 +16,30 @@ namespace Jouniaux_Cryptographie
         {
             InitializeComponent();
         }
+        CryptageDotNet rs = new CryptageDotNet();
+
+        private void btn_CrypDot_Click(object sender, EventArgs e)
+        {
+          
+            string cypher = string.Empty;
+            var text = textBox1.Text;
+            if(text != string.Empty)
+            {
+                cypher = rs.Encrypt(text);
+                textBox2.Text = cypher;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+            string cypher = string.Empty;
+            var text = textBox2.Text;
+            if (text != string.Empty)
+            {
+                cypher = rs.Decrypt(text);
+                textBox3.Text = cypher;
+            }
+        }
     }
 }

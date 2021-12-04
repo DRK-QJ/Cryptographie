@@ -1,0 +1,10 @@
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\bin\Debug\Jouniaux_Cryptographie.exe.config
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\bin\Debug\Jouniaux_Cryptographie.exe
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\bin\Debug\Jouniaux_Cryptographie.pdb
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.csproj.AssemblyReference.cache
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.Form1.resources
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.Properties.Resources.resources
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.csproj.GenerateResource.cache
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.csproj.CoreCompileInputs.cache
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.exe
+F:\Documents\CloudStation\Bachelier Informatique et Systèmes\2eme BAC\Q1\système d'exploitation\Programme Cryptographie\Jouniaux_Cryptographie\obj\Debug\Jouniaux_Cryptographie.pdb
