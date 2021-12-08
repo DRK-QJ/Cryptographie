@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CryptageDotNet.cs" />
+    <Compile Include="CryptagePerso.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
