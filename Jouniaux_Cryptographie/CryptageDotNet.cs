@@ -11,7 +11,7 @@ namespace Jouniaux_Cryptographie
 {
     class CryptageDotNet
     {
-        private static RSACryptoServiceProvider csp = new RSACryptoServiceProvider(2048);
+        private static RSACryptoServiceProvider csp = new RSACryptoServiceProvider(512);
         private RSAParameters _clesprive;
         private RSAParameters _clespublique;
 
