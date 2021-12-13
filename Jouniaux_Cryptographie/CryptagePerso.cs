@@ -8,37 +8,37 @@ namespace Jouniaux_Cryptographie
 {
     class CryptagePerso
     {
-        private string key;
-        public string Key
+        private string _clé;
+        public string Clé_crypt
         {
-            get { return key; }
+            get { return _clé; }
         }
 
         public CryptagePerso(string cle)
         {
-            key = cle;
+            _clé = cle;
 
         }
 
-        public string Encrypt(string ChaineaEncoder)
+        public string Encrypt(string Chaine_Encode)
         {
             string encrypt = null;
 
-            for (int i = 0; i < ChaineaEncoder.Length; i++)
+            for (int i = 0; i < Chaine_Encode.Length; i++)
             {
-                encrypt += Convert.ToString(Convert.ToChar((Convert.ToInt16(key[i % key.Length]) + Convert.ToInt16(ChaineaEncoder[i])) % 65536));
+                encrypt += Convert.ToString(Convert.ToChar((Convert.ToInt16(_clé[i % _clé.Length]) + Convert.ToInt16(Chaine_Encode[i])) % 65536));
             }
 
             return encrypt;
         }
 
-        public string Decrypt(string ChaineaDecrypter)
+        public string Decrypt(string Chaine_Decrypte)
         {
             string decrypt = null;
 
-            for (int i = 0; i < ChaineaDecrypter.Length; i++)
+            for (int i = 0; i < Chaine_Decrypte.Length; i++)
             {
-                decrypt += Convert.ToString(Convert.ToChar(((Convert.ToInt16(ChaineaDecrypter[i]) - Convert.ToInt16(key[i % key.Length])) % 65536)));
+                decrypt += Convert.ToString(Convert.ToChar(((Convert.ToInt16(Chaine_Decrypte[i]) - Convert.ToInt16(_clé[i % _clé.Length])) % 65536)));
             }
 
             return decrypt;
